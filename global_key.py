@@ -1,3 +1,5 @@
+x="awsome"
+
 def myfunc():
     global x
     x="fantastic"

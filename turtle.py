@@ -1,9 +1,6 @@
-#turtel
-
 import turtle
-
 colors=["red","violet","yellow","purple","orange","blue"]
-t=turtle.pen()
+t=turtle.Pen()
 t.speed(1000)
 turtle.bgcolor("black")
 
