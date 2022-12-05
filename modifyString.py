@@ -1,2 +1,2 @@
-a=" hello from the other side "
-print(a.upper())
+a=" HELLO FROM THE OTHER SIDE"
+print(a.lower())
