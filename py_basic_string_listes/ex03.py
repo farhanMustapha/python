@@ -1,6 +1,7 @@
 #pair ou impair
-number=int(input("tapez un nombre : "))
-if number%2==0:
-    print("is pair")
+number=input("tapez un nombre : ")
+n=int(number)
+if n%2==0:
+    print("the number "+number+" is pair")
 else :
-    print("impair")
+    print("the number "+number+" is impair")
