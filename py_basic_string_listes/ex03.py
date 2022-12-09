@@ -2,6 +2,6 @@
 number=input("tapez un nombre : ")
 n=int(number)
 if n%2==0:
-    print("the number "+number+" is pair")
+    print("the number "+str(n)+" is pair")
 else :
-    print("the number "+number+" is impair")
+    print("the number "+str(n)+" is impair")
