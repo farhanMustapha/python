@@ -11,6 +11,19 @@ def surface():
 def perimetre():
     p=monRec.largeur+monRec.longueur
     print(p)
-    
+
 perimetre()
 surface()
+
+class parallelepipede(Rectangle):
+    def __init__(self,longueur,largeur,hauteur):
+        Rectangle.__init__(self,longueur,largeur)
+        self.hauteur=hauteur
+
+monPara=parallelepipede(6, 3, 2)
+
+def volume():
+     v=monPara.largeur*monPara.longueur*monPara.hauteur
+     print(v)
+
+volume()
