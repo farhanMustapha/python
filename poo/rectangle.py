@@ -8,5 +8,9 @@ def surface():
     s=monRec.largeur*monRec.longueur
     print(s)
 
-
+def perimetre():
+    p=monRec.largeur+monRec.longueur
+    print(p)
+    
+perimetre()
 surface()
