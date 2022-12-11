@@ -19,6 +19,12 @@ print(t[::-1])
 
 """
 #=====================exercice 2 : print value 20 ===============================
+"""
 tuple1 = ("Orange", [10, 20, 30], (5, 15, 25))
 listo=tuple1[1]
 print(listo[1])
+"""
+
+#====================exercice 3 : creat tuple with single item =======================
+tupleo=(50)
+print(tupleo)
