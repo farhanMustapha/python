@@ -7,5 +7,5 @@ for i in range(0,len(journal)):
     t[i]=journal[len(journal)-i-1]
     
 print(t)"""
-journal=journal[::-1]
-print(journal)
+
+print(journal[::-1])
