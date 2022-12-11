@@ -30,6 +30,17 @@ print(listo[1])
 #print(tupleo)
 
 #====================exercice 4 :Unpack the tuple into 4 variables ==================
+
+"""
 tuple1 = (10, 20, 30, 40)
 a,b,c,d=tuple1
 print(a,b,c,d)
+"""
+#Swap two tuples in Python
+tuple1 = (11, 22)
+tuple2 = (99, 88)
+lst=tuple1
+tuple1=tuple2
+tuple2=lst
+print("tup1",tuple1)
+print("tup2",tuple2)
