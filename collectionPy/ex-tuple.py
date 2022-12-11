@@ -10,5 +10,6 @@ for i in range(0,len(journal)):
     
 print(t)"""
 
+#-1 it s mean start from the end and move by one step 
 #print(journal[::-1])
-print(t[0:11:1])
+print(t[::-1])
