@@ -1,9 +1,11 @@
 #https://pynative.com/python-tuple-exercise-with-solutions/
 
-#================= exercice 1 : Reverse the tuple=======================
+#================= exercice 1 : Reverse the tuple =======================
 journal=("achat","vent","banque","caisse","operation divers")
-t={}
+"""t={}
 for i in range(0,len(journal)):
     t[i]=journal[len(journal)-i-1]
     
-print(t)
+print(t)"""
+journal=journal[::-1]
+print(journal)
