@@ -1,9 +1,9 @@
 import json
-data="""{
+data={
     "key1":"value1",
     "key2":"value2",
     "key3":"value3"
-}"""
+}
 
-jsonData=json.loads(data)
-print(jsonData['key2'])
+jsonData=json.dumps(data,indent=2,separators=(",","="))
+print(jsonData)
