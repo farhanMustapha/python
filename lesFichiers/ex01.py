@@ -1,6 +1,6 @@
 
 #===programme permet de donner l'extention du fichier =======
-
+#===================== ex 01 =============================
 fichier=input("saisire le nom du fichier :")
 l=fichier.split(" ")
 print(l)
