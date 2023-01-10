@@ -9,6 +9,9 @@ try:
         database='testorina'
     )
     mycur=conn.cursor()
-    mycur.execute("INSERT INTO testi('name','adress') values("ahmed","beni mellal")")
+    mycur.execute("""
+    INSERT INTO testi values("valeria","sisil")
+    """)
+    conn.commit()
 except mysql.connector.Error as r :
     print(r)
